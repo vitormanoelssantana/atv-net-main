@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+header div{
+    background-color: #3b8686;
+    padding: 2vw 0vw 2vw 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+header div ul {
+    display: flex;
+    padding-top: 2px;
+}
+header div ul li a{
+    color: white;
+    margin: 0 1vw;
+    font-family: "Sour gummy", sans-serif;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+header div ul li:first-child{
+    border-radius: 20px;
+    background-color: #479292;
+    margin: 0;
+}
+main section:first-child{
+    background-image: url(..//src/back-banner.png);
+    padding: 10vw 10vw 10vw 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 23vw 7vw 10vw 7vw;
+}
+main section h1{
+    font-size: 4rem;
+    color: white;
+    font-family: "Sour gummy", sans-serif;
+    background-color: rgba(58, 255, 255, 0.3);
+    width: 40%;
+}
+section.servicos{
+    display: flex;
+    padding: 7vw 7vw 7vw 7vw;
+}
+section.servicos ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.servicos ul li{
+    width: 25%;
+}
+section.servicos ul li span{
+    color: #3b8686;
+    font-size: 3rem;
+}
+section.servicos ul li h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+section.servicos ul li p{
+    color: rgb(121, 114, 114);
+}
+section.servicos ul li a{
+    background-color: #3b8686;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    margin: 20px 0 0 0 ;
+    color: white;
+}
+section.informacoes{
+    background: linear-gradient(#3b868660, #3b868660), url(../src/back-numeros.png) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.informacoes ul li p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+section.informacoes ul li span{
+    color: white;
+    font-size: 3.5rem;
+    
+}    
+section.informacoes ul{
+    display: flex;
+    padding: 9vw 10vw 9vw 10vw;
+    justify-content: space-between;
+}
+section.informacoes ul li{
+    text-align: center;
+}
+section.possibilidades h3{
+    color: #0b486b;
+    font-size: 2.5rem;
+    padding: 35px 0px 35px 0;
+}
+section.possibilidades p{
+    color: #747474;
+    font-size: 1.2rem;
+    padding: 0px 0px 30px 0px;
+}
+section.possibilidades a{
+    background-color: #0B486B;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    text-align: left;
+}
+section.possibilidades {
+    display: flex;
+    margin: 9vw 5vw 9vw 5vw;
+    text-align: left;
+}
+section.possibilidades div img{
+    margin: 2vw 10vw 2vw 10vw;
+}
+footer{
+    background-color: #3B8686;
+}
+footer div nav ul{
+    display: flex;
+    color: white;
+    margin-bottom: 2vw;
+    margin: 0vw 0vw 2vw 0vw;
+}
+footer div nav ul li{
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px;
+    text-align: left;
+}
+footer div {
+    color: white;
+    margin: 5vw 5vw 5vw 5vw;
+}
+footer div h6{
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    color: white;
+}
+footer div ul li{
+    text-align: center;
+    color: white;
+}
